@@ -1,0 +1,571 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+.image-container {
+   background-image: url("/images/hero.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100Vw;
+   height: 100vh;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   /* filter: brightness(90%); */
+}
+.image-content {
+   /* background-color: rgba(0, 255, 255, 0.322); */
+   width: 90%;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   gap: 5rem;
+}
+.nav-div {
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   /* background-color: rgb(133, 163, 164); */
+}
+.logo-div {
+   width: 22%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* background-color: rgba(220, 20, 60, 0.307); */
+}
+.links-div {
+   width: 38%;
+   /* background-color: rgba(220, 20, 60, 0.307); */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.links-div ul{
+   width: 100%;
+   list-style: none;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 5%;
+}
+.login-and-membership-div {
+   width: 37%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   /* background-color: rgba(220, 20, 60, 0.307); */
+}
+.member::before {
+   content: "Become a member";
+}
+.content-description {
+   width: 100%;
+   height: 70%;
+   /* background-color: rgba(0, 128, 0, 0.373); */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.description-headlines {
+   /* background-color: rgba(128, 255, 0, 0.186); */
+   width: 60%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   text-align: center;
+   gap: 50px
+}
+.description-headlines h1 {
+   font-size: 60px;
+   width: 80%;
+}
+.description-headlines p {
+   width: 55%;
+}
+.quote-and-learn-links {
+   /* background-color: rgba(219, 224, 211, 0.807); */
+   width: 60%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+.quote-and-learn-links p {
+   padding: 7px;
+   border-radius: 20px;
+}
+.quote {
+   border: 3px solid rgb(0, 153, 255);
+   background-color: rgb(0, 153, 255);
+   width: 50%;
+}
+.learn {
+   border: 3px solid white;
+   width: 40%
+}
+.outside-image-content {
+   background-color: rgba(218, 216, 216, 0.89);
+   width: 80%;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   gap: 50px;
+   text-align: center;
+}
+.quality-three {
+   background-color: rgba(242, 234, 234, 0.418);
+   width: 90%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   gap: 0;
+   margin: 0 auto;
+   /* background-color: rgba(220, 20, 60, 0.426); */
+}
+.quality-three-each {
+   background-color: white;
+   width: 31%;
+   height: 25vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: -6.5%;
+   box-shadow: 0px 0px 20px 1px;
+}
+.quality-three-each-div {
+   /* background-color: rgba(0, 139, 139, 0.252); */
+   width: 85%;
+   height: 95%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   gap: 2rem;
+   font-size: 15px;
+}
+.quality-three-each-div ion-icon {
+   font-size: 55px;
+   color: rgb(0, 153, 255);
+}
+.quality-three-each-div h1 {
+   
+}
+.second-three-div {
+   /* background-color: rgba(71, 61, 139, 0.459); */
+   width: 90%;
+   height: 30vh;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+.second-three-each {
+   width: 31%;
+   height: 30vh;
+   /* background-color: rgba(47, 79, 79, 0.404); */
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+.second-three-inner {
+   width: 55%;
+   height: 95%;
+   /* background-color: rgba(240, 255, 240, 0.623); */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 7px;
+   text-align: center;
+}
+.second-three-inner ion-icon {
+   margin: 20px auto;
+   font-size: 55px;
+   color: rgb(0, 153, 255);
+}
+.second-three-inner p {
+   font-size: 10px;
+}
+.industry-div {
+   margin: 6rem auto;
+   font-size: 1vw;
+}
+.profile-div {
+   display: flex;
+   justify-content: space-evenly;
+   margin-bottom: 2rem;
+}
+.profiles {
+   width: 24%;
+   border: 1px ridge rgb(179, 170, 170);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   gap: 2rem;
+   padding: 3rem;
+}
+.logo-icons-div {
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   /* border: 1px ridge white; */
+   margin: 8rem auto;
+}
+.subscription-container {
+   width: 100%;
+   /* height: 10vh; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: linear-gradient(to right, rgba(0, 0, 255, 0.568), purple, rgb(218, 74, 206))
+   /* background-color: rgba(0, 255, 255, 0.295); */
+}
+.subscription-container input {
+   width: 30%;
+   height: 3rem;
+   margin-left: 1rem;
+   text-align: left;
+   padding: 1rem;
+   border-top-left-radius: 7px;
+   border-bottom-left-radius: 7px;
+}
+.subscription-container h4 {
+   font-size: 30px;
+   width: 20%;
+   /* background-color: rgba(165, 42, 42, 0.39); */
+   text-align: left;
+   margin: 1rem 6rem;
+   color: white;
+}
+.btn-div {
+   width: 10%;
+}
+.subs {
+   width: 100%;
+   height: 3rem;
+   text-align: left;
+   padding-left: 1rem;
+   color: rgba(255, 255, 255, 0.925);
+   background-color: rgb(0, 153, 255);
+   border-top-right-radius: 7px;
+   border-bottom-right-radius: 7px;
+}
+.price-card-cont {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1px;
+}
+.price-card-strips {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 2rem;
+   padding: 1rem;
+   border: 1px solid rgb(0, 153, 255);
+   border-radius: 10px;
+}
+.price-card-strips h3 {
+   margin: 0 auto;
+}
+.price-card-strips p {
+   margin: 0 auto;
+}
+.prices {
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.price {
+   font-size: 3rem;
+}
+.dollar p {
+   margin: 0 auto;
+   text-align: left;
+}
+.price-card-strips button{
+   width: 90%;
+   margin: 0 auto;
+   padding: 10px;
+   border-radius: 5px;
+   background-color: rgb(0, 153, 255);
+   border: 0px;
+   color: white
+}
+.add {
+   padding-top: 3rem;
+   margin-bottom: 2rem;
+   background-color: rgb(37, 60, 110);
+}
+.blue-part {
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   background-color: rgb(24, 35, 68);
+   justify-content: space-evenly;
+   gap: 30px;
+}
+.form-div {
+   display: flex;
+   justify-content: center;
+   margin-top: -30%;
+   width: 100%;
+   height: 60vh;
+}
+.form-image {
+   background-image: url("/images/contact.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+   width: 25%;
+   height: 100%;
+}
+.contact-info {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+.information {
+   display: flex;
+}
+footer {
+   width: 100%;
+}
+.footer-div {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   background-color: rgba(30, 143, 255, 0.411);
+}
+@media (max-width: 950px) {
+   * {
+    
+   }
+   body {
+      width: 100vw;
+      text-align: center;
+   }
+   .image-container {
+      background-size: cover;
+      background-position: center;
+      filter: brightness(100%);
+   }
+.image-content {
+      background-color: rgba(83, 85, 85, 0.322);
+      width: 100%;
+}
+.nav-div {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 7px;
+      font-size: 13px;
+      margin-top: 25px;
+      /* background-color: coral; */;
+   }
+.logo-div {
+   /* width: 22%; */
+   display: flex;
+   /* justify-content: center;  Can be removed
+   align-items: center; */
+   /* background-color: rgba(127, 255, 212, 0.425); */
+   margin-left: 15px;
+   color: white;
+}
+.links-div {
+   /* width: 38%; */
+   /* background-color: rgba(220, 20, 60, 0.307); */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 35px;
+   margin-right: 10px;
+   color: white;
+}
+.links-div ul{
+   /* width: 100%; */
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 15px;
+   /* background-color: brown; */
+}
+.login-and-membership-div {
+   /* width: 30%; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* background-color: rgba(220, 20, 60, 0.307); */
+   gap: 8px;
+   color: white;
+}
+.member::before {
+   content: 'Membership';
+}
+.description-headlines {
+   font-size: 14px;
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-top: 8rem;
+   gap: 50px;
+   color: white;
+}
+.description-headlines h1 {
+   font-size: 30px;
+}
+.quote-and-learn-links {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   gap: 30px;
+}
+.outside-image-content {
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+   gap: 10rem;
+}
+.quality-three {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   gap: 3rem;
+   height: 0%;
+}
+.quality-three-each {
+   width: 90%;
+   margin-top: 5rem;
+}
+.second-three-div {
+   display: flex;
+   flex-direction: column;
+   /* justify-content: center; */
+   gap: 3rem;
+   text-align: center;
+   margin-bottom: 20px;
+}
+.second-three-each {
+   width: 90%;
+}
+.industry {
+   display: flex;
+   flex-direction: column;
+   margin-top: 3rem;
+}
+.profile-div {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   gap: 5rem;
+   width: 100%;
+
+}
+.profiles {
+   width: 60%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   margin: 0 auto;
+   gap: 3rem
+}
+.logo-icons-div {
+   display: flex;
+   flex-direction: column;
+   gap: 7rem;
+   width: 100%;
+}
+.subscription-container {
+   display: flex;
+   flex-direction: column;
+}
+.pricing {
+   width: 60%;
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+.price-card-cont {
+   display: flex;
+   flex-direction: column;
+   gap: 7rem;
+}
+.blue-part {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+}
+.form-div {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 3rem;
+   margin-top: 1rem;
+}
+.form {
+   width: 70%;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.contact-info {
+   width: 60%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+   line-height: 2rem;
+}
+.consulting h3 {
+   font-size: 5vw;
+}
+.consulting {display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+.consulting p {
+   font-size: 1rem;
+}
+.contact-info button {
+   width: 100%;
+}
+.information {
+   width: 90%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 2rem;
+}
+.info-item {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+.footer-div {
+   display: flex;
+   justify-content: space-between;
+}
+}
